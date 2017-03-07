@@ -1,0 +1,5 @@
+<div>Cookie: 1484649510        2017-01-18 03:33:35pm<br/> 那你很棒啊</div> <br/><div>Cookie: 1484649510        2017-01-18 03:33:02pm<br/> 秒啊</div> <br/><div>Cookie: 1484649510        2017-01-18 10:21:44am<br/> &lt;form method= &quot;POST&quot; action= &quot;&lt;?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?&gt;&quot; &gt;
+&lt;textarea name=&quot;content&quot; style=&quot;height:190px; width:350px;&quot;&gt; &lt;/textarea&gt;&lt;/br&gt;&lt;/br&gt;
+&lt;input type=&quot;submit&quot;&gt;</div> <br/><div>Cookie: 1484649510        2017-01-18 10:21:41am<br/> &lt;form method= &quot;POST&quot; action= &quot;&lt;?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?&gt;&quot; &gt;
+&lt;textarea name=&quot;content&quot; style=&quot;height:190px; width:350px;&quot;&gt; &lt;/textarea&gt;&lt;/br&gt;&lt;/br&gt;
+&lt;input type=&quot;submit&quot;&gt;</div> <br/>﻿

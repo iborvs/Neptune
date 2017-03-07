@@ -1,62 +1,30 @@
+ï»¿
 <html>
-<body background="http://www.w3school.com.cn/i/eg_background.jpg">
-<!-- Ã»´í Ã÷Ä¿ÕÅµ¨µÄµÁÁ´ -->
+<body background="bg1.jpg">
 <head>
-<h1>ÉÏÒ»¸öÍøÒ³³óµÄÎÒ»ëÉíÄÑÊÜÓÚÊÇÐÂ½¨Ò»¸öºÃÁË</h1>
-<h3>ËµÆðÀ´ÆäÊµ»¹ÊÇ±È½ÏÏ²»¶ÅµÍßÂ¶ÕâÖÖÀàÐÍµÄ£¬¿ÉÏ§²»Ì«»áÓÃ°¡¡­¡­</h3>
+<title>
+ç•™è¨€æ¿
+</title>
+<style>
+body{
+	color:white;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+</style>
+</head>
+<h1>ç•™è¨€æ¿ï¼š</h1>
 <hr/>
-<img src="nwl.jpg" alt="Noire" usemap="#hey"/>Õâ¸öÍ¼ÊÇÓÐ¿ÉÒÔµãµÄµØ·½Å¶
-<map name="hey" id="hey">
-<area
-shape="circle"
-coords="350,260,55"
-href="heyman.jpg"
-target="_blank" />
-</map>
-<h3>
-<p>
-<img src ="http://www.w3school.com.cn/i/eg_cute.gif" align ="left"> àÅ£¬È»ºóÎÒ´òÁËÒ»¾Ö£¬¶ÔÃæ²ËµÄ¸ù±¾Ã»ÓÐÑµÁ·Ð§¹ûºÃ°É£¬»¹ÊÇ»ØÀ´Ñ§htmlºÃÁË
-</p>
-</h3>
-<!-- Ã»´í ÓÖÊÇÃ÷Ä¿ÕÅµ¨µÄµÁÁ´ -->
-<br/>
-<th>×î°®ÓÃÓ¢ÐÛÁÐ±í£º</th>
-<table border="0" cellpadding="5" frame="hsides">
-<tr>
-  <td>Á¢»ª×à</td>
-  <td>ÎåºÓÇÙÀï</td>
-  <td>ÄùÆÕ¶Ù</td>
-</tr>
-<tr>
-  <td>ÅµÍßÂ¶</td>
-  <td>ð°Ò»ÕÛÖ½</td>
-  <td>¸ßî®ÄÎÒ¶</td>
-</tr>
-</table>
-<br/>
-<h3>ÔÙÈÃÎÒÃÇ¸øÕâ¸öÓ¢ÐÛ×ö¸ö×ÝÏòÅÅÐò</h3>
-<ul>
-<li>°ëÈâad
-  <ol>
-   <li>Á¢»ª×à</li>
-   <li>ÎåºÓÇÙÀï</li>
-   <li>ÄùÆÕ¶Ù</li>
-   <li>ÅµÍßÂ¶</li>
-  </ol>
-</li>
-<li>·¨Ê¦
-   <ol>
-    <li>ð°Ò»ÕÛÖ½</li>
-    <li>¸ßî®ÄÎÒ¶</li>
-   </ol>
-</li>
-</ul>
-<a href="../gitin/kanzhejiunanshou.html#fk">ÃªµÄÊ¹ÓÃ</a>ÎªÁËÄúµÄÉíÐÄ½¡¿µ£¬Çë²»Òªµã¿ªÕâ¸öÃª
-<!-- ÕâÀïÊÇcss²¿·Ö -->
-<!-- ÕâÀïÊÇ±Ê¼Ç²¿·Ö
-taget=_top
-img align="bottom"//"top"//"middle"
-ÔÚpassageÖÐÓÐleft right
--->
+<?php
+if(!isset($_COOKIE["tuser"]))
+{
+require ('login.php');
+}
+else
+{
+require('board.php');
+}
+?>
 </body>
 </html>
